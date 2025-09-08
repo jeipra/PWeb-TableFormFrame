@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body align="center">
+        <b size="60" style="color:green">Registration Form</b>
+        <form method="post" action="data.html">
+            <table align="center">
+                <tr>
+                    <td>
+                        First Name:<br>
+                        <input type="text" name="firstName" size="30" maxlength="50" placeholder="Insert your first name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name:<br>
+                        <input type="text" name="lastName" size="30" maxlength="15" placeholder="Insert your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:<br>
+                        <input type="email" name="email" size="30" maxlength="50" placeholder="Insert your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:<br>
+                        <input type="password" name="password" size="30" maxlength="50" placeholder="Insert your password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Re-type Password:<br>
+                        <input type="password" name="confirmPassword" size="30" maxlength="50" placeholder="Re-type your password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Contact:<br>
+                        <input type="text" name="contact" size="30" maxlength="15" placeholder="Insert your contact number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:<br>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                            <option value="preferNotToSay">Prefer not to say</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
